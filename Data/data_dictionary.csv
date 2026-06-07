@@ -1,0 +1,59 @@
+column,description,unit,present_in_raw_dataset,present_in_processed_datasets
+doi,Digital Object Identifier of the source paper,-,yes,no
+title,Title of the source paper,-,yes,no
+authors,Authors of the source paper,-,yes,no
+journal,Journal of the source paper,-,yes,no
+year,Publication year of the source paper,year,yes,yes
+fig_num,Figure number in the source paper/database record,-,yes,no
+figure_caption,Caption text of the source figure,-,yes,no
+curve_num,Curve identifier extracted from the source figure,-,yes,no
+curve_color,Curve color/legend information from figure extraction,-,yes,no
+legend_name,Legend name associated with the extracted curve/data series,-,yes,no
+alloy classification,Categorical label describing the alloy family/classification,-,yes,yes
+materials_unit,Composition unit used in the original record,-,yes,no
+Cu,Cu elemental content in the alloy composition,wt.%,yes,yes
+Ag,Ag elemental content in the alloy composition,wt.%,yes,yes
+Al,Al elemental content in the alloy composition,wt.%,yes,yes
+B,B elemental content in the alloy composition,wt.%,yes,yes
+Ce,Ce elemental content in the alloy composition,wt.%,yes,yes
+Co,Co elemental content in the alloy composition,wt.%,yes,yes
+Cr,Cr elemental content in the alloy composition,wt.%,yes,yes
+Er,Er elemental content in the alloy composition,wt.%,yes,yes
+Fe,Fe elemental content in the alloy composition,wt.%,yes,yes
+Hf,Hf elemental content in the alloy composition,wt.%,yes,yes
+Mg,Mg elemental content in the alloy composition,wt.%,yes,yes
+Mn,Mn elemental content in the alloy composition,wt.%,yes,yes
+Nb,Nb elemental content in the alloy composition,wt.%,yes,yes
+Ni,Ni elemental content in the alloy composition,wt.%,yes,yes
+Sc,Sc elemental content in the alloy composition,wt.%,yes,yes
+Si,Si elemental content in the alloy composition,wt.%,yes,yes
+Sn,Sn elemental content in the alloy composition,wt.%,yes,yes
+Ti,Ti elemental content in the alloy composition,wt.%,yes,yes
+Y,Y elemental content in the alloy composition,wt.%,yes,yes
+Zn,Zn elemental content in the alloy composition,wt.%,yes,yes
+Zr,Zr elemental content in the alloy composition,wt.%,yes,yes
+process classification,Categorical label describing the process route,-,yes,yes
+homogenization temperature (℃),Homogenization heat-treatment temperature,°C,yes,yes
+homogenization time (h),Homogenization heat-treatment duration,h,yes,yes
+hot rolling or forging,Indicator/category for hot rolling or forging treatment,-,yes,yes
+solution temperature (℃),Solution-treatment temperature,°C,yes,yes
+solution time (h),Solution-treatment duration,h,yes,yes
+CR1,First cold-reduction/deformation ratio,%,yes,yes
+Temp1 (℃),First ageing temperature,°C,yes,yes
+time1 (h),First ageing time,h,yes,yes
+CR2,"Second cold-reduction/deformation ratio, when present",%,yes,yes
+Temp2 (℃),"Second ageing temperature, when present",°C,yes,yes
+time2 (h),"Second ageing time, when present",h,yes,yes
+CR3,"Third cold-reduction/deformation ratio, when present",%,yes,yes
+Temp3 (℃),"Third ageing temperature, when present",°C,yes,yes
+time3 (h),"Third ageing time, when present",h,yes,yes
+flag_note,Flag or note retained from the source/cleaning process,-,yes,no
+x_data,Independent variable values from the original extracted curve,varies,yes,no
+x_name,Name of the independent variable in the original extracted curve,-,yes,no
+x_unit,Unit of the independent variable in the original extracted curve,-,yes,no
+y_data,Target property value used for modelling: hardness or electrical conductivity,HV or %IACS,yes,yes
+y_name,Target property name corresponding to y_data,-,yes,yes
+y_unit,Unit of the target property in the original record,HV or %IACS,yes,no
+source_reliability,Source/data reliability score used in the processed dataset,-,yes,yes
+hot_rolling_temp,Hot-rolling/forging temperature after processing/feature construction,°C,no,yes
+hot_rolling_reduction,Hot-rolling/forging reduction ratio after processing/feature construction,%,no,yes

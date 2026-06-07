@@ -1,0 +1,13 @@
+target,model,cv_mean_r2,cv_std_r2
+hardness,ET,0.900777,0.033738
+hardness,RF,0.897162,0.027643
+hardness,GB,0.879456,0.022684
+hardness,XGB,0.897503,0.027680
+hardness,LGBM,0.887762,0.027321
+hardness,CAT,0.870841,0.016515
+conductivity,ET,0.943862,0.025460
+conductivity,RF,0.942920,0.021675
+conductivity,GB,0.941300,0.021771
+conductivity,XGB,0.946573,0.021170
+conductivity,LGBM,0.947855,0.019306
+conductivity,CAT,0.940638,0.018592
